@@ -329,6 +329,7 @@
         expect(result[2]['3']).to.eql(array2[2]['3']);
         expect(result[2]['3']).to.not.equal(array2[2]['3']);
       });
+      //Complete readme, new prompts, and test refactors
 
       it("should not use native JSON methods or Object.assign", function() {
         // Spying on methods in testSupport.js
